@@ -1,0 +1,35 @@
+# COMANDOS PARA SUBIR O PROJETO PARA O GITHUB
+# Execute estes comandos no seu terminal local (na pasta do projeto)
+
+# 1. Inicializar o repositório Git
+git init
+
+# 2. Adicionar todos os arquivos
+git add .
+
+# 3. Fazer o primeiro commit
+git commit -m "Initial commit: Vehicle Tracking Dashboard - Dashboard de Rastreamento Amazon"
+
+# 4. Criar um novo repositório no GitHub
+# Vá para https://github.com/new
+# Nome sugerido: vehicle-tracking-dashboard
+# Deixe como público ou privado (sua escolha)
+# NÃO inicialize com README (já temos um)
+
+# 5. Adicionar o repositório remoto (substitua SEU_USUARIO pelo seu username do GitHub)
+git remote add origin https://github.com/SEU_USUARIO/vehicle-tracking-dashboard.git
+
+# 6. Definir a branch principal
+git branch -M main
+
+# 7. Fazer o push para o GitHub
+git push -u origin main
+
+# PRONTO! Seu projeto estará no GitHub.
+
+# INFORMAÇÕES DO PROJETO:
+# - Nome: Vehicle Tracking Dashboard
+# - Tecnologia: Next.js 15 + React 19 + TypeScript
+# - UI: Tailwind CSS + Radix UI + Shadcn/ui
+# - Gráficos: Recharts
+# - Descrição: Dashboard de rastreamento de veículos para rotas da Amazon
